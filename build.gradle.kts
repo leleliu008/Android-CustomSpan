@@ -19,6 +19,8 @@ buildscript {
         //用于上传maven包到jCenter中
         //https://github.com/bintray/gradle-bintray-plugin
         classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3")
+
+        classpath("com.fpliu:BintrayUploadAndroidGradlePlugin:1.0.0")
     }
 }
 
